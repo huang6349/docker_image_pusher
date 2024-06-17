@@ -1,5 +1,7 @@
 # swag
 lscr.io/linuxserver/swag:2.6.0-ls234
+# nginx
+docker.io/nginx:1.8.1
 # backup-x
 docker.io/jeessy/backup-x:v2.7.2
 # adminer
