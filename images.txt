@@ -1,6 +1,12 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+lscr.io/linuxserver/swag:2.6.0-ls234
+docker.io/jeessy/backup-x:v2.7.2
+docker.io/adminer:4.8.1
+docker.io/mysql:8.0.37
+docker.io/mysql:8.0.31
+docker.io/rabbitmq:3.13.3-management
+docker.io/rabbitmq:3.9.11-management
+docker.io/redis:6.2.14
+docker.io/redis:6.0.17
+docker.io/openspug/spug-service:latest
+docker.io/gogs/gogs:0.13
+docker.io/gogs/gogs:0.12.3
