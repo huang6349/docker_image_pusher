@@ -1,12 +1,20 @@
+# swag
 lscr.io/linuxserver/swag:2.6.0-ls234
+# backup-x
 docker.io/jeessy/backup-x:v2.7.2
+# adminer
 docker.io/adminer:4.8.1
+# mysql
 docker.io/mysql:8.0.37
 docker.io/mysql:8.0.31
+# rabbitmq
 docker.io/rabbitmq:3.13.3-management
 docker.io/rabbitmq:3.9.11-management
+# redis
 docker.io/redis:6.2.14
 docker.io/redis:6.0.17
+# spug
 docker.io/openspug/spug-service:latest
+# gogs
 docker.io/gogs/gogs:0.13
 docker.io/gogs/gogs:0.12.3
