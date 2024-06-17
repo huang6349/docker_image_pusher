@@ -1,7 +1,5 @@
 # swag
 lscr.io/linuxserver/swag:2.6.0-ls234
-# nginx
-docker.io/nginx:1.8.1
 # backup-x
 docker.io/jeessy/backup-x:v2.7.2
 # adminer
@@ -17,6 +15,8 @@ docker.io/rabbitmq:3.9.11-management
 # redis
 docker.io/redis:6.2.14
 docker.io/redis:6.0.17
+# nginx
+docker.io/nginx:1.8.1
 # spug
 docker.io/openspug/spug-service:latest
 # gogs
