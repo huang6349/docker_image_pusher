@@ -1,7 +1,11 @@
+# elasticsearch
+docker.elastic.co/elasticsearch/elasticsearch:7.10.2
 # swag
 lscr.io/linuxserver/swag:2.6.0-ls234
 # backup-x
 docker.io/jeessy/backup-x:v2.7.2
+# canal
+docker.io/canal/canal-server:v1.1.5
 # adminer
 docker.io/adminer:4.8.1
 # mysql
