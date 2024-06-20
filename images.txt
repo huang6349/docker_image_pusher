@@ -24,3 +24,5 @@ docker.io/openspug/spug-service:latest
 # gogs
 docker.io/gogs/gogs:0.13
 docker.io/gogs/gogs:0.12.3
+# go-fastdfs
+docker.io/sjqzhang/go-fastdfs:v1.4.5
