@@ -15,7 +15,9 @@ docker.io/canal/canal-server:v1.1.5
 docker.io/adminer:4.8.1
 # mysql
 docker.io/mysql:8.0.37
+docker.io/arm64v8/mysql:8.0.37
 docker.io/mysql:8.0.31
+docker.io/arm64v8/mysql:8.0.31
 # amazoncorretto
 docker.io/amazoncorretto:8u412
 # rabbitmq
