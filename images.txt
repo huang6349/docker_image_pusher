@@ -1,37 +1,37 @@
 # portainer
-docker.io/portainer/portainer-ce:2.20.3-alpine
-docker.io/portainer/portainer-ce:2.20.3
-docker.io/portainer/portainer-ce:linux-arm64-2.20.3-alpine
-docker.io/portainer/portainer-ce:linux-arm64-2.20.3
+portainer/portainer-ce:2.20.3-alpine
+portainer/portainer-ce:2.20.3
+portainer/portainer-ce:linux-arm64-2.20.3-alpine
+portainer/portainer-ce:linux-arm64-2.20.3
 # elasticsearch
 docker.elastic.co/elasticsearch/elasticsearch:7.10.2
 # swag
 lscr.io/linuxserver/swag:2.6.0-ls234
 # backup-x
-docker.io/jeessy/backup-x:v2.7.2
+jeessy/backup-x:v2.7.2
 # canal
-docker.io/canal/canal-server:v1.1.5
+canal/canal-server:v1.1.5
 # adminer
-docker.io/adminer:4.8.1
+adminer:4.8.1
 # mysql
-docker.io/mysql:8.0.37
-docker.io/arm64v8/mysql:8.0.37
-docker.io/mysql:8.0.31
-docker.io/arm64v8/mysql:8.0.31
+mysql:8.0.37
+arm64v8/mysql:8.0.37
+mysql:8.0.31
+arm64v8/mysql:8.0.31
 # amazoncorretto
-docker.io/amazoncorretto:8u412
+amazoncorretto:8u412
 # rabbitmq
-docker.io/rabbitmq:3.13.3-management
-docker.io/rabbitmq:3.9.11-management
+rabbitmq:3.13.3-management
+rabbitmq:3.9.11-management
 # redis
-docker.io/redis:6.2.14
-docker.io/redis:6.0.17
+redis:6.2.14
+redis:6.0.17
 # spug
-docker.io/openspug/spug-service:latest
+openspug/spug-service:latest
 # gogs
-docker.io/gogs/gogs:0.13
-docker.io/gogs/gogs:0.12.3
+gogs/gogs:0.13
+gogs/gogs:0.12.3
 # go-fastdfs
-docker.io/sjqzhang/go-fastdfs:v1.4.5
+sjqzhang/go-fastdfs:v1.4.5
 # minio
-docker.io/bitnami/minio:2024.6.13
+bitnami/minio:2024.6.13
