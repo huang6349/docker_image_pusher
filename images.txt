@@ -10,6 +10,8 @@ lscr.io/linuxserver/swag:2.6.0-ls234
 # backup-x
 docker.io/jeessy/backup-x:v2.7.2
 # canal
+docker.io/canal/canal-server:v1.1.7
+docker.io/canal/canal-server:v1.1.7-arm64
 docker.io/canal/canal-server:v1.1.5
 # adminer
 docker.io/adminer:4.8.1
@@ -33,5 +35,8 @@ docker.io/gogs/gogs:0.13
 docker.io/gogs/gogs:0.12.3
 # go-fastdfs
 docker.io/sjqzhang/go-fastdfs:v1.4.5
+# tomcat
+--platform=linux/arm64 docker.io/tomcat:9.0.90-jre8
+docker.io/tomcat:9.0.90-jre8
 # minio
 docker.io/bitnami/minio:2024.6.13
