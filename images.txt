@@ -46,5 +46,8 @@ docker.io/sjqzhang/go-fastdfs:v1.4.5
 --platform=linux/arm64 docker.io/tomcat:9.0.90-jre8
 docker.io/tomcat:9.0.90-jre8
 docker.io/tomcat:9.0.10-jre8
+# openjdk
+--platform=linux/amd64 docker.io/openjdk:8-jre
+--platform=linux/arm64/v8 docker.io/openjdk:8-jre
 # minio
 docker.io/bitnami/minio:2024.6.13
