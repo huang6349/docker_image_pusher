@@ -1,8 +1,8 @@
 # portainer
-docker.io/portainer/portainer-ce:2.20.3-alpine
-docker.io/portainer/portainer-ce:2.20.3
 docker.io/portainer/portainer-ce:linux-arm64-2.20.3-alpine
+docker.io/portainer/portainer-ce:2.20.3-alpine
 docker.io/portainer/portainer-ce:linux-arm64-2.20.3
+docker.io/portainer/portainer-ce:2.20.3
 # elasticsearch
 docker.elastic.co/elasticsearch/elasticsearch:7.10.2
 # swag
@@ -23,7 +23,13 @@ docker.io/mysql:8.0.31
 # amazoncorretto
 --platform=linux/arm64/v8 docker.io/amazoncorretto:8u412
 docker.io/amazoncorretto:8u412
+# activemq
+--platform=linux/arm64 docker.io/apache/activemq-classic:6.1.1
+--platform=linux/arm64 docker.io/apache/activemq-classic:6.0.1
+docker.io/apache/activemq-classic:6.1.1
+docker.io/apache/activemq-classic:6.0.1
 # rabbitmq
+--platform=linux/arm64 docker.io/rabbitmq:3.13.3-management
 docker.io/rabbitmq:3.13.3-management
 docker.io/rabbitmq:3.9.11-management
 # redis
@@ -36,13 +42,9 @@ docker.io/gogs/gogs:0.13
 docker.io/gogs/gogs:0.12.3
 # go-fastdfs
 docker.io/sjqzhang/go-fastdfs:v1.4.5
-# openjdk
---platform=linux/arm64/v8 docker.io/openjdk:8-jre
-docker.io/openjdk:8-jre
 # tomcat
 --platform=linux/arm64 docker.io/tomcat:9.0.90-jre8
 docker.io/tomcat:9.0.90-jre8
---platform=linux/arm64/v8 docker.io/tomcat:9.0.10-jre8
 docker.io/tomcat:9.0.10-jre8
 # minio
 docker.io/bitnami/minio:2024.6.13
