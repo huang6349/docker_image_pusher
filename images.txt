@@ -21,6 +21,7 @@ docker.io/adminer:4.8.1
 docker.io/mysql:8.0.37
 docker.io/mysql:8.0.31
 # amazoncorretto
+--platform=linux/arm64/v8 docker.io/amazoncorretto:8u412
 docker.io/amazoncorretto:8u412
 # rabbitmq
 docker.io/rabbitmq:3.13.3-management
