@@ -49,3 +49,8 @@ docker.io/tomcat:9.0.10-jre8
 docker.io/bitnami/minio:2024.6.13
 # chatgpt-on-wechat
 docker.io/zhayujie/chatgpt-on-wechat:1.6.7
+# emqx
+--platform=linux/arm64 docker.io/emqx:5.7.1
+--platform=linux/arm64 docker.io/emqx:5.6.1
+docker.io/emqx:5.7.1
+docker.io/emqx:5.6.1
