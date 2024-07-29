@@ -54,5 +54,7 @@ docker.io/tomcat:9.0.10-jre8
 --platform=linux/arm64/v8 docker.io/openjdk:8-jre
 # minio
 docker.io/bitnami/minio:2024.6.13
+# zfile
+docker.io/zhaojun1998/zfile:4.1.5
 # chatgpt-on-wechat
 docker.io/zhayujie/chatgpt-on-wechat:1.6.7
