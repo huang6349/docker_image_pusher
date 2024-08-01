@@ -20,11 +20,6 @@ docker.io/adminer:4.8.1
 --platform=linux/arm64 docker.io/mysql:8.0.31
 docker.io/mysql:8.0.37
 docker.io/mysql:8.0.31
-# emqx
---platform=linux/arm64 docker.io/emqx/emqx:5.7.1
---platform=linux/arm64 docker.io/emqx/emqx:5.6.1
-docker.io/emqx/emqx:5.7.1
-docker.io/emqx/emqx:5.6.1
 # amazoncorretto
 --platform=linux/arm64/v8 docker.io/amazoncorretto:8u412
 docker.io/amazoncorretto:8u412
@@ -35,6 +30,11 @@ docker.io/rabbitmq:3.9.11-management
 # redis
 docker.io/redis:6.2.14
 docker.io/redis:6.0.17
+# minio
+docker.io/bitnami/minio:2024.6.13
+# emqx
+--platform=linux/arm64 docker.io/emqx/emqx:4.4.19
+docker.io/emqx/emqx:4.4.19
 # spug
 docker.io/openspug/spug-service:latest
 # gogs
@@ -50,8 +50,6 @@ docker.io/tomcat:9.0.10-jre8
 # openjdk
 --platform=linux/amd64 docker.io/openjdk:8-jre
 --platform=linux/arm64/v8 docker.io/openjdk:8-jre
-# minio
-docker.io/bitnami/minio:2024.6.13
 # zfile
 docker.io/zhaojun1998/zfile:4.1.5
 # chatgpt-on-wechat
