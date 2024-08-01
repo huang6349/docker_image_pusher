@@ -21,12 +21,10 @@ docker.io/adminer:4.8.1
 docker.io/mysql:8.0.37
 docker.io/mysql:8.0.31
 # emqx
---platform=linux/arm64 docker.io/emqx:5.7.1
---platform=linux/arm64 docker.io/emqx:5.6.1
---platform=linux/arm64 docker.io/emqx:5.5.1
-docker.io/emqx:5.7.1
-docker.io/emqx:5.6.1
-docker.io/emqx:5.5.1
+--platform=linux/arm64 docker.io/emqx/emqx:5.7.1
+--platform=linux/arm64 docker.io/emqx/emqx:5.6.1
+docker.io/emqx/emqx:5.7.1
+docker.io/emqx/emqx:5.6.1
 # amazoncorretto
 --platform=linux/arm64/v8 docker.io/amazoncorretto:8u412
 docker.io/amazoncorretto:8u412
