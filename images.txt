@@ -32,6 +32,9 @@ docker.io/redis:6.2.14
 docker.io/redis:6.0.17
 # minio
 docker.io/bitnami/minio:2024.6.13
+# mosquitto
+--platform=linux/arm64 docker.io/eclipse-mosquitto:2.0.18
+docker.io/eclipse-mosquitto:2.0.18
 # emqx
 --platform=linux/arm64 docker.io/emqx/emqx:4.4.19
 docker.io/emqx/emqx:4.4.19
