@@ -20,6 +20,7 @@ docker.io/adminer:4.8.1
 --platform=linux/arm64 docker.io/mysql:8.0.31
 docker.io/mysql:8.0.37
 docker.io/mysql:8.0.31
+docker.io/mysql:8.0.23
 # amazoncorretto
 --platform=linux/arm64/v8 docker.io/amazoncorretto:8u412
 docker.io/amazoncorretto:8u412
@@ -30,6 +31,7 @@ docker.io/rabbitmq:3.9.11-management
 # redis
 docker.io/redis:6.2.14
 docker.io/redis:6.0.17
+docker.io/redis:6.0.10
 # minio
 docker.io/bitnami/minio:2024.6.13
 # mosquitto
@@ -57,3 +59,5 @@ docker.io/tomcat:9.0.10-jre8
 docker.io/zhaojun1998/zfile:4.1.5
 # chatgpt-on-wechat
 docker.io/zhayujie/chatgpt-on-wechat:1.6.7
+# volumerize
+docker.io/blacklabelops/volumerize:1.7.1
