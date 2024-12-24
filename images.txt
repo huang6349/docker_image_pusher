@@ -36,6 +36,9 @@ docker.io/redis:6.0.17
 docker.io/redis:6.0.10
 # minio
 docker.io/bitnami/minio:2024.6.13
+# tdengine
+--platform=linux/arm64/v8 docker.io/tdengine/tdengine:3.3.4.8
+docker.io/tdengine/tdengine:3.3.4.8
 # mosquitto
 --platform=linux/arm64 docker.io/eclipse-mosquitto:2.0.18
 docker.io/eclipse-mosquitto:2.0.18
