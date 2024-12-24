@@ -64,5 +64,6 @@ docker.io/tomcat:9.0.10-jre8
 docker.io/zhaojun1998/zfile:4.1.5
 # chatgpt-on-wechat
 docker.io/zhayujie/chatgpt-on-wechat:1.6.7
+docker.io/zhayujie/chatgpt-on-wechat:1.7.4
 # volumerize
 docker.io/blacklabelops/volumerize:1.7.1
