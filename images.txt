@@ -4,6 +4,7 @@ docker.io/portainer/portainer-ce:2.20.3-alpine
 docker.io/portainer/portainer-ce:linux-arm64-2.20.3
 docker.io/portainer/portainer-ce:2.20.3
 # elasticsearch
+docker.elastic.co/elasticsearch/elasticsearch:7.10.2-arm64
 docker.elastic.co/elasticsearch/elasticsearch:7.10.2
 # nginx
 lscr.io/linuxserver/nginx:1.26.2-r0-ls294
