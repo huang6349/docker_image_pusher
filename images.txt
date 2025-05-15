@@ -7,6 +7,7 @@ docker.io/portainer/portainer-ce:2.20.3
 docker.elastic.co/elasticsearch/elasticsearch:7.10.2-arm64
 docker.elastic.co/elasticsearch/elasticsearch:7.10.2
 # nginx
+lscr.io/linuxserver/nginx:arm64v8-1.26.2-r0-ls294
 lscr.io/linuxserver/nginx:1.26.2-r0-ls294
 # swag
 lscr.io/linuxserver/swag:2.6.0-ls234
@@ -32,10 +33,14 @@ docker.io/amazoncorretto:8u412
 docker.io/rabbitmq:3.13.3-management
 docker.io/rabbitmq:3.9.11-management
 # redis
+--platform=linux/arm64/v8 docker.io/redis:6.2.14
+--platform=linux/arm64/v8 docker.io/redis:6.0.17
+--platform=linux/arm64/v8 docker.io/redis:6.0.10
 docker.io/redis:6.2.14
 docker.io/redis:6.0.17
 docker.io/redis:6.0.10
 # minio
+--platform=linux/arm64 docker.io/bitnami/minio:2024.6.13
 docker.io/bitnami/minio:2024.6.13
 # tdengine
 --platform=linux/arm64/v8 docker.io/tdengine/tdengine:3.3.4.8
