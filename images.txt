@@ -73,3 +73,6 @@ docker.io/zhayujie/chatgpt-on-wechat:1.6.7
 docker.io/zhayujie/chatgpt-on-wechat:1.7.4
 # volumerize
 docker.io/blacklabelops/volumerize:1.7.1
+# ollama
+--platform=linux/arm64 docker.io/ollama/ollama:0.6.8
+docker.io/ollama/ollama:0.6.8
