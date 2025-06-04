@@ -1,6 +1,6 @@
 # ollama
---platform=linux/arm64 docker.io/ollama/ollama:0.8.0-rc0
-docker.io/ollama/ollama:0.8.0-rc0
+--platform=linux/arm64 docker.io/ollama/ollama:0.9.0
+docker.io/ollama/ollama:0.9.0
 --platform=linux/arm64 docker.io/ollama/ollama:0.7.1
 docker.io/ollama/ollama:0.7.1
 --platform=linux/arm64 docker.io/ollama/ollama:0.6.8
