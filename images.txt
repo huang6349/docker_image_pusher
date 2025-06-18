@@ -1,3 +1,6 @@
+# redis-stack-server
+--platform=linux/arm64 docker.io/redis/redis-stack-server:7.4.0-v5
+docker.io/redis/redis-stack-server:7.4.0-v5
 # redis
 --platform=linux/arm64/v8 docker.io/redis:8.0.2
 --platform=linux/arm64/v8 docker.io/redis:6.2.14
@@ -53,9 +56,6 @@ docker.io/amazoncorretto:8u412
 --platform=linux/arm64 docker.io/rabbitmq:3.13.3-management
 docker.io/rabbitmq:3.13.3-management
 docker.io/rabbitmq:3.9.11-management
-# redis-stack-server
---platform=linux/arm64 docker.io/redis/redis-stack-server:7.4.0-v5
-docker.io/redis/redis-stack-server:7.4.0-v5
 # minio
 --platform=linux/arm64 docker.io/bitnami/minio:2024.6.13
 docker.io/bitnami/minio:2024.6.13
