@@ -1,3 +1,8 @@
+# amazoncorretto
+--platform=linux/arm64/v8 docker.io/amazoncorretto:17.0.15
+docker.io/amazoncorretto:17.0.15
+--platform=linux/arm64/v8 docker.io/amazoncorretto:8u412
+docker.io/amazoncorretto:8u412
 # redis-stack-server
 --platform=linux/arm64 docker.io/redis/redis-stack-server:7.4.0-v5
 docker.io/redis/redis-stack-server:7.4.0-v5
@@ -49,9 +54,6 @@ docker.io/adminer:4.8.1
 docker.io/mysql:8.0.37
 docker.io/mysql:8.0.31
 docker.io/mysql:8.0.23
-# amazoncorretto
---platform=linux/arm64/v8 docker.io/amazoncorretto:8u412
-docker.io/amazoncorretto:8u412
 # rabbitmq
 --platform=linux/arm64 docker.io/rabbitmq:3.13.3-management
 docker.io/rabbitmq:3.13.3-management
