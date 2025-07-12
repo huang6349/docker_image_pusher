@@ -1,3 +1,15 @@
+# mysql
+--platform=linux/arm64 docker.io/mysql:9.3.0
+--platform=linux/arm64 docker.io/mysql:8.4.5
+--platform=linux/arm64 docker.io/mysql:8.0.42
+--platform=linux/arm64 docker.io/mysql:8.0.37
+--platform=linux/arm64 docker.io/mysql:8.0.31
+docker.io/mysql:9.3.0
+docker.io/mysql:8.4.5
+docker.io/mysql:8.0.42
+docker.io/mysql:8.0.37
+docker.io/mysql:8.0.31
+docker.io/mysql:8.0.23
 # timescaledb
 --platform=linux/arm64 docker.io/timescale/timescaledb:2.21.0-pg17
 docker.io/timescale/timescaledb:2.21.0-pg17
@@ -53,12 +65,6 @@ docker.io/canal/canal-server:v1.1.7-arm64
 docker.io/canal/canal-server:v1.1.5
 # adminer
 docker.io/adminer:4.8.1
-# mysql
---platform=linux/arm64 docker.io/mysql:8.0.37
---platform=linux/arm64 docker.io/mysql:8.0.31
-docker.io/mysql:8.0.37
-docker.io/mysql:8.0.31
-docker.io/mysql:8.0.23
 # rabbitmq
 --platform=linux/arm64 docker.io/rabbitmq:3.13.3-management
 docker.io/rabbitmq:3.13.3-management
