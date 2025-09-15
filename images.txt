@@ -1,3 +1,8 @@
+# nacos
+--platform=linux/arm64 docker.io/nacos/nacos-server:v3.0.3
+--platform=linux/arm64 docker.io/nacos/nacos-server:v2.5.1
+docker.io/nacos/nacos-server:v3.0.3
+docker.io/nacos/nacos-server:v2.5.1
 # backup-x
 --platform=linux/arm64 docker.io/jeessy/backup-x:v2.8.3
 docker.io/jeessy/backup-x:v2.8.3
