@@ -1,5 +1,5 @@
 # portainer
-docker.io/portainer/portainer-ce:2.33.2-linux-arm64-alpine
+docker.io/portainer/portainer-ce:linux-arm64-2.33.2-alpine
 docker.io/portainer/portainer-ce:2.33.2-alpine
 docker.io/portainer/portainer-ce:linux-arm64-2.20.3-alpine
 docker.io/portainer/portainer-ce:2.20.3-alpine
